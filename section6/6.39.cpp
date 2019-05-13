@@ -1,3 +1,6 @@
+/**
+КЏЪ§жиди
+*/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -36,7 +39,6 @@ int main()
 {
 	int i = 10, j = 20;
 	cout << calc(i, j) << endl;
-	system("pause");
 	return 0;
 }
 //int calc(int val1, int val2) {

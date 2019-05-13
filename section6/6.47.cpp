@@ -1,3 +1,6 @@
+/**
+NDEBUG避免运行时检查的开销
+*/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -38,7 +41,7 @@ void func(vector<string> &svec, vector<string>::iterator &iter)
 int main()
 {
 	vector<string> svec = { "haha","xixi","hehe","gaga" };
-	func(svec, svec.begin());
-	system("pause");
+	auto iter=svec.begin();
+	func(svec, iter);
 	return 0;
 }

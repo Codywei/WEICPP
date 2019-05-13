@@ -1,3 +1,6 @@
+/**
+函数指针的使用
+*/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -42,8 +45,6 @@ int main()
 	{
 		cout << tmp(num1, num2) << endl;
 	}
-
-	system("pause");
 	return 0;
 }
 

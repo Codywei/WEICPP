@@ -1,3 +1,6 @@
+/**
+assert使用
+*/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -26,11 +29,11 @@ int main()
 {
 	// 这个循环是想在s输入错误，cin状态为无效时并且s不等于sought时退出循环
 	// 这个时候可以判断cin肯定是为false的，所以assert必定会触发
-	// 但是assert显然不是这么使用的，assert内的条件应该是不能触发的条件
-	// So 不合理
+	// 但是assert显然不是这么使用的，assert内的条件应该是本不应该触发的条件
+	// 所以不合理
 	string s;
+	string sought="123";
 	while (cin >> s&&s != sought) {}// 空函数体
 	assert(cin);
-	system("pause");
 	return 0;
 }

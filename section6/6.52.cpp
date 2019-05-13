@@ -1,3 +1,6 @@
+/**
+函数类型转换
+*/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -32,6 +35,6 @@ int main()
 	manip('a', 'z');
 	// b. manip(55.6, dobj) 55.6算术类型转换，4级，dobj精确匹配
 	manip(55.6, dobj);
-	system("pause");
+	
 	return 0;
 }

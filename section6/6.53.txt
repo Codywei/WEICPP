@@ -1,0 +1,12 @@
+a. 第二组声明后，类型匹配或可以转换的常量实参将调用第二组声明
+int calc(int&, int&);
+int calc(const int&, const int&);
+
+b. 第二组声明后，类型匹配或可以转换的常量实参将调用第二组声明
+int calc(char*, char*);
+int calc(const char*, const char*);
+
+c. 第二组声明没有用，因为顶层const会被忽略，所以构成重复声明
+int calc(char *, char *);
+int calc(char* const, char* const);
+

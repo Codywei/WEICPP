@@ -1,3 +1,6 @@
+/**
+º¯Êıµ÷ÓÃ
+*/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -27,8 +30,7 @@ int main()
 {
 	//init();
 	init(24, 10);
-	init(41, '*');
-	system("pause");
+	//init(14, '*');
 	return 0;
 }
 char *init(int ht, int wd, char bckgrnd)

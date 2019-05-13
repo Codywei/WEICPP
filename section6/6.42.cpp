@@ -1,3 +1,6 @@
+/**
+函数默认参数
+*/
 #include <iostream>
 #include <string>
 using std::string;
@@ -14,7 +17,5 @@ int main()
 	cout << make_plural(2, "success") << endl;
 	cout << make_plural(1, "failure") << endl;
 	cout << make_plural(2, "failure") << endl;
-
-	system("pause");
 	return 0;
 }

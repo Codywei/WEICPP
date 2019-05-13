@@ -1,3 +1,6 @@
+/**
+µÝ¹éÊµÏÖ½×³Ë
+*/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -25,14 +28,14 @@ using std::initializer_list;
 // ¼ÆËãvalµÄ½×³Ë£¬¼´1 * 2 * 3... * val
 int factorial(int val)
 {
-	if (val != 0)
+	if (val != 0){
 		return val*factorial(val - 1);
+	}
 	return 1;
 }
 
 int main()
 {
 	cout << factorial(6) << endl;
-	system("pause");
 	return 0;
 }

@@ -1,3 +1,6 @@
+/**
+º¯Êý×î¼ÑÆ¥Åä
+*/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -50,6 +53,6 @@ int main()
 	// ×î¼ÑÆ¥Åä f(double, double=3.14);
 	// f(2.56, 3.14);
 
-	system("pause");
+
 	return 0;
 }

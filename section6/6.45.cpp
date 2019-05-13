@@ -1,3 +1,6 @@
+/**
+±àĞ´ÄÚÁªº¯Êı
+*/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -28,6 +31,5 @@ inline int calc(int val1, int val2)
 
 int main()
 {
-	system("pause");
 	return 0;
 }

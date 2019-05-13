@@ -1,3 +1,6 @@
+/**
+编写内联函数
+*/
 #include <string>
 using std::string;
 inline bool isShorter(const string &s1, const string &s2)

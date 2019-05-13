@@ -1,3 +1,6 @@
+/**
+使用迭代器打印容器内容
+*/
 #include <iostream>
 #include <string>
 #include <vector>

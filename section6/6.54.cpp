@@ -1,3 +1,6 @@
+/**
+º¯ÊıÖ¸Õë
+*/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -29,6 +32,5 @@ int main()
 {
 	vector<int(*)(int, int)> fvec;
 	vector<decltype(func)*> fvec2;
-	system("pause");
 	return 0;
 }

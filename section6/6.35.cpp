@@ -1,3 +1,6 @@
+/**
+µİ¹éº¯ÊıµÄ´íÎóĞ´·¨
+*/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -33,6 +36,5 @@ int factorial(int val)
 int main()
 {
 	factorial(5);
-	system("pause");
 	return 0;
 }

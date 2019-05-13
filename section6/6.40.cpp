@@ -1,3 +1,6 @@
+/**
+形参默认值
+*/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -28,6 +31,5 @@ int ff(int a, int b = 0, int c = 0);
 
 int main()
 {
-	system("pause");
 	return 0;
 }

@@ -1,3 +1,6 @@
+/**
+多种形式的函数返回数组引用
+*/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -47,6 +50,5 @@ int main()
 	string(&strs)[10] = func();
 	for (auto str : strs)
 		cout << str << endl;
-	system("pause");
 	return 0;
 }

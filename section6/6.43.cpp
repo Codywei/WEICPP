@@ -1,3 +1,6 @@
+/**
+内联函数用法 
+*/
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<stdlib.h>
@@ -9,19 +12,14 @@
 // b不是内联函数，一个项目中只能定义一次
 
 //a.
-inline bool eq(const BigInt&, const BigInt&)
-{
-	/* ...*/
-}
+// inline bool eq(const BigInt&, const BigInt&)
+// {
+// 	/* ...*/
+// }
 
 //b.
-void putValues(int *arr, int size);
+// void putValues(int *arr, int size);
 
-int main(void)
-{
-
-
-	printf("\n");
-	system("pause");
+int main(){
 	return 0;
 }

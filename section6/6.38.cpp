@@ -1,3 +1,6 @@
+/**
+返回函数的数组引用
+*/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -34,6 +37,5 @@ int main()
 	int(&arr)[5] = arrPty(3);
 	for (auto tmp : arr)
 		cout << tmp << endl;
-	system("pause");
 	return 0;
 }
