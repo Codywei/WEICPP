@@ -29,8 +29,13 @@ char *init(int ht, int wd = 80, char bckgrnd = ' ');
 int main()
 {
 	//init();
-	init(24, 10);
-	//init(14, '*');
+    //init(14, '*');
+	
+	char *result=init(24, 10,'a');
+	cout<<*result<<endl;
+	delete(result);
+	result=nullptr;
+
 	return 0;
 }
 char *init(int ht, int wd, char bckgrnd)
@@ -38,6 +43,6 @@ char *init(int ht, int wd, char bckgrnd)
 	cout << ht << endl
 		<< wd << endl
 		<< bckgrnd << endl;
-	char ch = 'a';
-	return &ch;
+    char *b=new char('b');
+	return b;
 }

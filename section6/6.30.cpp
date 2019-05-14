@@ -40,6 +40,7 @@ bool str_subrange(const string &str1, const string &str2)
 	}
 	// 错误 #2：控制流可能尚未返回任何值就结束了函数的执行
 	// 编译器可能检查不出这一错误
+	return 0;
 }
 int main()
 {

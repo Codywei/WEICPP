@@ -32,9 +32,9 @@ double dobj;
 int main()
 {
 	// a. manip('a', 'z') 'a'和'z'都是类型提升，3级转换
-	manip('a', 'z');
+	// manip('a', 'z');
 	// b. manip(55.6, dobj) 55.6算术类型转换，4级，dobj精确匹配
-	manip(55.6, dobj);
+	// manip(55.6, dobj);
 	
 	return 0;
 }
