@@ -1,7 +1,7 @@
 import glob
 import os
 print(os.path.abspath('.'))
-os.chdir("section8")
+os.chdir("section9")
 file=r'./CMakeLists.txt'
 with open(file,'w+') as f:
    for name in glob.glob(r'*.cpp'):
