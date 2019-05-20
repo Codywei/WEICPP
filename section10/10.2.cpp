@@ -1,3 +1,6 @@
+/**
+count函数
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>
