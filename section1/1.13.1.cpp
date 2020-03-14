@@ -9,7 +9,7 @@ int main()
 	{
 		sum += i;
 	}
-	std::cout << "Sum of 1 to 10 inclusive is "
+	std::cout << "Sum of 50 to 100 inclusive is "
 			  << sum << std::endl;
 	return 0;
 }
